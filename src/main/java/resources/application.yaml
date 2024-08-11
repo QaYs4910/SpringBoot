@@ -1,7 +1,9 @@
-server:
-  port: 8084
+
 person:
   last_name: zhangsan
   age: 20
   sex: 男
   likes: 足球,篮球,乒乓球
+spring:
+  profiles:
+    active: test # 根据配置选择配置文件
