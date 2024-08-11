@@ -1,10 +1,7 @@
 server:
   port: 8082
 person:
-  name: zhangsan
+  last_name: zhangsan
   age: 20
   sex: 男
-  likes:
-    - 足球
-    - 排球
-    - 羽毛球
+  likes: 足球,篮球,乒乓球
